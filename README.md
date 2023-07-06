@@ -424,7 +424,7 @@ functions. This wide range of applications will lead to the development and grow
 <h3>Appendix </h3>
 
 To inspect TensorflowSwinUNet Model structure, please move to <b>./projects/MultipleMyeloma</b>,
- and run the followin bat file.<br>
+ and run the following bat file.<br>
 <pre>
 >model_inspect.bat
 </pre>
