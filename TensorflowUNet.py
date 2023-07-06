@@ -519,7 +519,12 @@ class TensorflowUNet:
     print("Test loss    :{}".format(round(score[0], 4)))     
     print("Test accuracy:{}".format(round(score[1], 4)))
      
-    
+  def inspect(self, image_file='./model.png'):
+    # Please download and install graphviz for your OS
+    # https://www.graphviz.org/download/ 
+    tf.keras.utils.plot_model(self.model, to_file=image_file, show_shapes=True)
+    print("=== Saved model graph as an image_file {}".format(image_file))
+
 if __name__ == "__main__":
 
   try:
@@ -541,11 +546,8 @@ if __name__ == "__main__":
     
     # Create a UNetMolde and compile
     model    = TensorflowUNet(config_file)
-    # Please download and install graphviz for your OS
-    # https://www.graphviz.org/download/ 
-    image_file = './asset/model.png'
-    tf.keras.utils.plot_model(model.model, to_file=image_file, show_shapes=True)
-
+    model.inspect("./model.png")
+  
   except:
     traceback.print_exc()
     

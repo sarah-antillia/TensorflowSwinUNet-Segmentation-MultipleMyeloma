@@ -322,13 +322,12 @@ which runs the Python script
 <pre>
 python ../../TensorflowSwinUNetTiledInferencer.py  ./train_eval_infer.config
 </pre>
-Please note that overlalling is 0 in this case.<br>
+Please note that overlapping is 0 in this case.<br>
 <pre>
 [tiledinfer] 
 overlapping  = 0
 </pre>
 <b>Input images 4K (4k_mini_test)</b><br>
-
 <img src="./asset/4k_mini_test.png" width="1024" height="auto"><br>
 <br>
 <b>Tiled-Image-Segmentation: Infered images (4k_mini_test_output)</b><br>
@@ -343,6 +342,7 @@ TensorflowUNet3Plus-Segmentation-MultipleMyeloma</a>
 <a href="https://github.com/atlan-antillia/Tiled-Image-Segmentation-Multiple-Myeloma">Tiled-Image-Segmentation-Multiple-Myeloma</a>
 
 <br>
+
 <br>
 <h3>
 References
@@ -419,3 +419,14 @@ functions. This wide range of applications will lead to the development and grow
 }
 
 <br>
+
+<h2>Appendix </h2>
+
+To inspect TensorflowSwinNet Model structure, please move to <b>./projects/MultipleMyeloma</b>,
+ and run the followin bat file.<br>
+<pre>
+>model_inspect.bat
+</pre>
+<img src= "./projects/MultipleMyeloma/model.png" width="720", height="auto"><br>
+
+
