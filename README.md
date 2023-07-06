@@ -417,10 +417,11 @@ different applications that use image segmentation can use SemSegLoss because of
 functions. This wide range of applications will lead to the development and growth of AI across all industries.
 }
 }
+</pre>
 
 <br>
 
-<h2>Appendix </h2>
+<h3>Appendix </h3>
 
 To inspect TensorflowSwinNet Model structure, please move to <b>./projects/MultipleMyeloma</b>,
  and run the followin bat file.<br>
