@@ -428,6 +428,6 @@ To inspect TensorflowSwinNet Model structure, please move to <b>./projects/Multi
 <pre>
 >model_inspect.bat
 </pre>
-<img src= "./projects/MultipleMyeloma/model.png" width="720", height="auto"><br>
+<img src= "./projects/MultipleMyeloma/model.png" width="720" height="auto"><br>
 
 
