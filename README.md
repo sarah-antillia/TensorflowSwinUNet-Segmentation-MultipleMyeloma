@@ -333,7 +333,46 @@ overlapping  = 0
 <b>Tiled-Image-Segmentation: Infered images (4k_mini_test_output)</b><br>
 
 <img src="./asset/4k_mini_test_image_output_tiled.png" width="1024" height="auto"><br><br>
+<b>Detailed 4K images comarison:</b><br>
+<table>
 
+
+<tr><td>4k_mini_test/405.jpg</td><td>Inferred_image</td></tr>
+<tr>
+<td><img src="./projects/MultipleMyeloma/4k_mini_test/405.jpg" width="480" height="auto"></td>
+<td><img src="./projects/MultipleMyeloma/4k_tiled_mini_test_output/405.jpg" width="480" height="auto"></td>
+</tr>
+<tr><td>4k_mini_test/605.jpg</td><td>Inferred_image</td></tr>
+
+<tr>
+<td><img src="./projects/MultipleMyeloma/4k_mini_test/605.jpg" width="480" height="auto"></td>
+<td><img src="./projects/MultipleMyeloma/4k_tiled_mini_test_output/605.jpg" width="480" height="auto"></td>
+</tr>
+
+<tr><td>4k_mini_test/1735.jpg</td><td>Inferred_image</td></tr>
+
+<tr>
+<td><img src="./projects/MultipleMyeloma/4k_mini_test/1735.jpg" width="480" height="auto"></td>
+<td><img src="./projects/MultipleMyeloma/4k_tiled_mini_test_output/1735.jpg" width="480" height="auto"></td>
+</tr>
+
+<tr><td>4k_mini_test/1923.jpg</td><td>Inferred_image</td></tr>
+
+<tr>
+<td><img src="./projects/MultipleMyeloma/4k_mini_test/1923.jpg" width="480" height="auto"></td>
+<td><img src="./projects/MultipleMyeloma/4k_tiled_mini_test_output/1923.jpg" width="480" height="auto"></td>
+</tr>
+
+<tr><td>4k_mini_test/2028.jpg</td><td>Inferred_image</td></tr>
+
+<tr>
+<td><img src="./projects/MultipleMyeloma/4k_mini_test/2028.jpg" width="480" height="auto"></td>
+<td><img src="./projects/MultipleMyeloma/4k_tiled_mini_test_output/2028.jpg" width="480" height="auto"></td>
+</tr>
+
+</table>
+
+<!-- -->
  Please refer to our experiment on <b>Overlapped-Tiled-Image-Segmentation</b> based on UNet3Plus Model.<br>
 <a href="https://github.com/sarah-antillia/TensorflowUNet3Plus-Segmentation-MultipleMyeloma">
 TensorflowUNet3Plus-Segmentation-MultipleMyeloma</a>
